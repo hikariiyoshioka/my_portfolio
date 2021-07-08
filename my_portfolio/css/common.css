@@ -1,0 +1,136 @@
+@charset "UTF-8";
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #555;
+}
+
+a {
+  text-decoration: none;
+}
+.nav_all {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  opacity: 0.5;
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 20%);
+}
+.nav_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_item {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 40px;
+}
+.nav_link {
+  display: inline-block;
+  padding: 10px 0;
+  color: #555;
+}
+
+.nav_link:hover {
+  color: #555;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 500px;
+  background-color: #ffc7af;
+}
+.top_title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #555;
+  letter-spacing: 2px;
+  background-image: url(img/f1409_1.png) no-repeat center;
+}
+.top_subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+}
+.section_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section {
+  padding: 120px 0;
+}
+
+.font1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #555;
+  margin-bottom: 60px;
+}
+
+.font2,
+.font3 {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+.about_img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px 0 #d9d9d9;
+}
+.work_all {
+  display: flex;
+  flex-wrap: wrap;
+}
+.work_img {
+  width: 32%;
+}
+.work_item {
+  flex: 32%;
+  margin-right: 2%;
+}
+.work_item:nth-of-type(3n) {
+  margin-right: 0;
+}
+.work_body p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+.font4 {
+  text-align: center;
+}
+form {
+  width: 50%;
+  margin: 10% auto;
+  min-width: 9rem;
+}
+
+input,
+textarea {
+  float: left;
+  width: 100%;
+  max-width: 100%;
+  border: #555;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  background: darken(#f9f9f9, 10%);
+  color: darken(#f9f9f9, 50%);
+  border: 1px solid #555;
+}
+.footer {
+  background-color: #ffc7af;
+  height: 20px;
+  padding-top: 30px;
+}
